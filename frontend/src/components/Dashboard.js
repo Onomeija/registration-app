@@ -27,7 +27,7 @@ function Dashboard() {
             <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
                 <Typography component="h1" variant="h4">
-                  Dashboard Peter.O - POD-15 I have succesfully deployed the application to ECR
+                  Dashboard POD-15 We have succesfully deployed the application to ECR/EC2
                 </Typography>
                 <Button variant="contained" color="secondary" onClick={handleLogout}>
                   Logout
